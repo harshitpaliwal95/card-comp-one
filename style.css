@@ -227,3 +227,163 @@ img {
   background-color: var(--light-gray);
   cursor: pointer;
 }
+/* || conponent two */
+/* || conponent two */
+/* || conponent two */
+
+/* ---- */
+
+/* component three */
+/* component three */
+/* component three */
+
+.component-three {
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  width: 25rem;
+  border-radius: 4px;
+  box-shadow: var(--main-box-shadow);
+}
+.comp-three-img {
+  height: 8rem;
+  width: 9rem;
+  margin-bottom: 0.2rem;
+}
+.comp-three-img img {
+  border-radius: 4px 0px 0px 0px;
+}
+
+.comp-three-head {
+  display: flex;
+}
+
+/* contant */
+.contant-comp-three {
+  margin: 1rem;
+}
+.contant-comp-three h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.contant-comp-three h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 1rem;
+}
+.contant-comp-three p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: gray;
+}
+
+/* actice button */
+.comp-three-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.6rem;
+}
+.comp-three-btns span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  transition: 0.8s;
+}
+/* hover effect for buttons */
+.comp-three-btns span:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.action-btn-comp-three {
+  margin-left: auto;
+}
+.action-btn-comp-three i {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.8s;
+}
+/* hover effect for action btn */
+.action-btn-comp-three i:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+/* component three */
+/* component three */
+/* component three */
+
+/* -------- */
+
+/* component four */
+/* component four */
+/* component four */
+
+.component-four {
+  display: flex;
+  flex-direction: column;
+  height: 21rem;
+  width: 20rem;
+  border-radius: 4px;
+  box-shadow: var(--main-box-shadow);
+}
+/* component image */
+.comp-four-img {
+  height: 10rem;
+}
+
+/* contant */
+.contant-comp-four {
+  margin: 0.8rem;
+}
+.contant-comp-four h2 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.contant-comp-four h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: gray;
+}
+.contant-comp-four p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: gray;
+}
+
+/* actice button */
+.comp-four-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.4rem;
+}
+.comp-four-btns span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 0.2rem;
+  padding: 0.4rem 0.6rem;
+  transition: 0.8s;
+}
+/* hover effect for buttons */
+.comp-four-btns span:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
+
+.action-btn-comp-four {
+  margin-left: auto;
+}
+.action-btn-comp-four i {
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: 0.8s;
+}
+/* hover effect for action btn */
+.action-btn-comp-four i:hover {
+  background-color: var(--light-gray);
+  cursor: pointer;
+}
