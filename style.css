@@ -68,8 +68,7 @@ img {
 }
 /* || all component box */
 .component-box {
-  padding: 5rem;
-  margin: 1rem;
+  margin: 4rem;
 }
 
 /* || component one (basic card) */
@@ -79,7 +78,7 @@ img {
 .component-one {
   display: flex;
   flex-direction: column;
-  height: 22rem;
+  height: 21rem;
   width: 20rem;
   border-radius: 4px;
   box-shadow: var(--main-box-shadow);
@@ -87,7 +86,6 @@ img {
 /* component image */
 .comp-one-img {
   height: 10rem;
-  margin-bottom: 1rem;
 }
 .comp-one-img img {
   border-radius: 4px 4px 0px 0px;
@@ -157,7 +155,7 @@ img {
 .component-two {
   display: flex;
   flex-direction: column;
-  height: 23rem;
+  height: 22rem;
   width: 20rem;
   border-radius: 4px;
   box-shadow: var(--main-box-shadow);
@@ -182,7 +180,7 @@ img {
 /* comp two ing box */
 .comp-two-img-box {
   height: 15rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 .overlap-comp-two {
   margin: 1.2rem;
@@ -195,20 +193,6 @@ img {
 }
 .overlap-comp-two p {
   margin: 1.2rem;
-}
-/* icon */
-.comp-two-icons {
-  margin-left: auto;
-}
-.comp-two-icons i {
-  border-radius: 50%;
-  padding: 0.5rem;
-}
-.comp-two-icons i:hover {
-  cursor: pointer;
-  border-radius: 50%;
-  background-color: var(--light-gray);
-  transition: 0.6s;
 }
 
 .comp-two-contant {
