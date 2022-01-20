@@ -7,4 +7,4 @@ card components 4 types
         3rd card component(Horizontal Img Text)
         4th card component(Basic w/ Header)
 
--- use flex box and rem for responsive design
+-- use flex box and rem for responsive design && use media query max-width(600px)
