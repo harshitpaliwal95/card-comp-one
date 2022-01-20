@@ -155,7 +155,7 @@ img {
 .component-two {
   display: flex;
   flex-direction: column;
-  height: 22rem;
+  height: 17rem;
   width: 20rem;
   border-radius: 4px;
   box-shadow: var(--main-box-shadow);
@@ -176,16 +176,19 @@ img {
   font-weight: 300;
   color: gray;
 }
+.comp-two-img-box img {
+  border-radius: 4px 4px 0px 0px;
+}
 
 /* comp two ing box */
 .comp-two-img-box {
-  height: 15rem;
+  height: 10rem;
   margin-bottom: 0.6rem;
 }
 .overlap-comp-two {
   margin: 1.2rem;
   width: 18rem;
-  height: 13rem;
+  height: 8rem;
   display: flex;
   flex-direction: column;
   position: absolute;
