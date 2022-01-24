@@ -71,53 +71,51 @@ img {
   margin: 4rem;
 }
 
-/* || component one (basic card) */
-/* || component one (basic card) */
-/* || component one (basic card) */
+/* || component (basic card) */
 
-.component-one {
+.card-component {
   display: flex;
   flex-direction: column;
-  height: 21rem;
   width: 20rem;
   border-radius: 4px;
   box-shadow: var(--main-box-shadow);
 }
 /* component image */
-.comp-one-img {
+.card-comp-img {
   height: 10rem;
 }
-.comp-one-img img {
+.card-top-img {
   border-radius: 4px 4px 0px 0px;
 }
+
 /* contant */
-.contant-comp-one {
-  margin: 1rem;
+.card-comp-contant {
+  margin: 0.8rem;
 }
-.contant-comp-one h2 {
+.card-h2 {
   font-weight: 400;
   font-size: 1.6rem;
 }
-.contant-comp-one h3 {
+.card-h3 {
   font-size: 0.8rem;
   font-weight: 400;
   color: gray;
   margin-bottom: 1rem;
 }
-.contant-comp-one p {
+.card-para {
   font-size: 0.9rem;
   font-weight: 300;
   color: gray;
 }
 
 /* actice button */
-.comp-one-btns {
+.card-btn-footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0.6rem;
 }
-.comp-one-btns span {
+.card-btn {
   font-size: 0.8rem;
   font-weight: 400;
   margin-left: 0.2rem;
@@ -125,252 +123,55 @@ img {
   transition: 0.8s;
 }
 /* hover effect for buttons */
-.comp-one-btns span:hover {
+.card-btn:hover {
   background-color: var(--light-gray);
   cursor: pointer;
 }
 
-.action-btn-comp-one {
+.card-icon-btn-right {
   margin-left: auto;
 }
-.action-btn-comp-one i {
+.card-icon {
   border-radius: 50%;
-  padding: 0.5rem;
+  padding: 0.5rem 0.6rem;
   transition: 0.8s;
 }
 /* hover effect for action btn */
-.action-btn-comp-one i:hover {
+.card-icon:hover {
   background-color: var(--light-gray);
   cursor: pointer;
 }
-/* || component one (basic card) */
-/* || component one (basic card) */
-/* || component one (basic card) */
+
+/* || component(basic card) */
 
 /* ----------------- */
 
-/* || conponent two */
-/* || conponent two */
-/* || conponent two */
-.component-two {
-  display: flex;
-  flex-direction: column;
-  height: 17rem;
-  width: 20rem;
-  border-radius: 4px;
-  box-shadow: var(--main-box-shadow);
-}
+/* || conponent two (over media)  */
 
-.component-two h2 {
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-.component-two h3 {
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: var(--light-gray);
-}
-.component-two p {
-  font-size: 0.9rem;
-  margin: 0.6rem;
-  font-weight: 300;
-  color: gray;
-}
-.comp-two-img-box img {
-  border-radius: 4px 4px 0px 0px;
-}
-
-/* comp two ing box */
-.comp-two-img-box {
-  height: 10rem;
-  margin-bottom: 0.6rem;
-}
-.overlap-comp-two {
-  margin: 1.2rem;
-  width: 18rem;
+.overlap-heading {
   height: 8rem;
-  display: flex;
-  flex-direction: column;
   position: absolute;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
-.overlap-comp-two p {
-  margin: 1.2rem;
+.h3-over-media {
+  margin: 0;
 }
 
-.comp-two-contant {
-  margin-top: auto;
-}
-
-.comp-two-btns span {
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin-left: 0.3rem;
-  padding: 0.4rem 0.6rem;
-  transition: 0.8s;
-}
-/* hover effect for buttons */
-.comp-two-btns span:hover {
-  background-color: var(--light-gray);
-  cursor: pointer;
-}
-/* || conponent two */
-/* || conponent two */
 /* || conponent two */
 
 /* ---- */
 
-/* component three */
-/* component three */
-/* component three */
+/* component three (horizontal card)*/
 
-.component-three {
+.horizontal-card {
   display: flex;
-  flex-direction: column;
-  height: 11rem;
-  width: 25rem;
-  border-radius: 4px;
-  box-shadow: var(--main-box-shadow);
 }
-.comp-three-img {
-  height: 8rem;
-  width: 9rem;
+.card-side-img {
+  height: 7rem;
+  width: 8rem;
   margin-bottom: 0.2rem;
-}
-.comp-three-img img {
   border-radius: 4px 0px 0px 0px;
-}
-
-.comp-three-head {
-  display: flex;
-}
-
-/* contant */
-.contant-comp-three {
-  margin: 1rem;
-}
-.contant-comp-three h2 {
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-.contant-comp-three h3 {
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: gray;
-  margin-bottom: 1rem;
-}
-.contant-comp-three p {
-  font-size: 0.9rem;
-  font-weight: 300;
-  color: gray;
-}
-
-/* actice button */
-.comp-three-btns {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0.6rem;
-}
-.comp-three-btns span {
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin-left: 0.2rem;
-  padding: 0.4rem 0.6rem;
-  transition: 0.8s;
-}
-/* hover effect for buttons */
-.comp-three-btns span:hover {
-  background-color: var(--light-gray);
-  cursor: pointer;
-}
-
-.action-btn-comp-three {
-  margin-left: auto;
-}
-.action-btn-comp-three i {
-  border-radius: 50%;
-  padding: 0.5rem;
-  transition: 0.8s;
-}
-/* hover effect for action btn */
-.action-btn-comp-three i:hover {
-  background-color: var(--light-gray);
-  cursor: pointer;
-}
-
-/* component three */
-/* component three */
-/* component three */
-
-/* -------- */
-
-/* component four */
-/* component four */
-/* component four */
-
-.component-four {
-  display: flex;
-  flex-direction: column;
-  height: 21rem;
-  width: 20rem;
-  border-radius: 4px;
-  box-shadow: var(--main-box-shadow);
-}
-/* component image */
-.comp-four-img {
-  height: 10rem;
-}
-
-/* contant */
-.contant-comp-four {
-  margin: 0.8rem;
-}
-.contant-comp-four h2 {
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-.contant-comp-four h3 {
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: gray;
-}
-.contant-comp-four p {
-  font-size: 0.9rem;
-  font-weight: 300;
-  color: gray;
-}
-
-/* actice button */
-.comp-four-btns {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0.4rem;
-}
-.comp-four-btns span {
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin-left: 0.2rem;
-  padding: 0.4rem 0.6rem;
-  transition: 0.8s;
-}
-/* hover effect for buttons */
-.comp-four-btns span:hover {
-  background-color: var(--light-gray);
-  cursor: pointer;
-}
-
-.action-btn-comp-four {
-  margin-left: auto;
-}
-.action-btn-comp-four i {
-  border-radius: 50%;
-  padding: 0.5rem;
-  transition: 0.8s;
-}
-/* hover effect for action btn */
-.action-btn-comp-four i:hover {
-  background-color: var(--light-gray);
-  cursor: pointer;
 }
